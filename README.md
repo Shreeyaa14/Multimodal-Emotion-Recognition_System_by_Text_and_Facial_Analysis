@@ -3,7 +3,6 @@
 This project is an automated Multimodal Emotion Recognition System that identifies the 7 emotions of humans, namely Happy, Sad, Fear, Anger, Disgust, Surprise, Neutral, by jointly analyzing textual input and facial expressions.
 The system leverages Natural Language Processing and Computer Vision techniques to extract emotional cues from multiple modalities, improving prediction accuracy compared to single-source emotion detection. It supports real-time facial emotion recognition and text-based sentiment inference through an interactive web interface.
 
-
 **System Workflow**
 * Accept text input and facial image or live webcam stream
 * Preprocess text using NLP cleaning and tokenization
@@ -15,14 +14,14 @@ The system leverages Natural Language Processing and Computer Vision techniques 
 
 **Technical Details**
 * **Programming Language:** Python
-* Text Emotion Analysis: NLP preprocessing, tokenization, embeddings, LSTM/DNN-based classifier
-* Facial Emotion Recognition: Convolutional Neural Network (CNN) for facial feature extraction
-* Face Detection: OpenCV-based detection and preprocessing
-* Multimodal Fusion: Score-level fusion combining text and facial predictions
-* Real-Time Processing: Webcam-based facial emotion detection
-* Web Framework: Streamlit
-* Data Handling: CSV-based emotion datasets
-* Libraries Used: TensorFlow/Keras, OpenCV, Pandas, NumPy, NLTK
+* **Text Emotion Analysis:** NLP preprocessing, tokenization, embeddings, LSTM/DNN-based classifier
+* **Facial Emotion Recognition:** Convolutional Neural Network (CNN) for facial feature extraction
+* **Face Detection:** OpenCV-based detection and preprocessing
+* **Multimodal Fusion:** Score-level fusion combining text and facial predictions
+* **Real-Time Processing:** Webcam-based facial emotion detection
+* **Web Framework:** Streamlit
+* **Data Handling:** CSV-based emotion datasets
+* **Libraries Used:** TensorFlow/Keras, OpenCV, Pandas, NumPy, NLTK
 
 **Output**
 * Predicted emotion labels (Happy, Sad, Angry, Neutral, Fear, Surprise, Disgust)
